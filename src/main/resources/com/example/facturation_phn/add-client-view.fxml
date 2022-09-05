@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.facturation_phn.AddClientView">
+   <children>
+      <Label layoutX="256.0" layoutY="45.0" text="Ajouter Un client">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="iptNom" layoutX="323.0" layoutY="107.0" prefHeight="24.0" prefWidth="193.0" />
+      <TextField fx:id="iptPrenom" layoutX="323.0" layoutY="157.0" prefHeight="24.0" prefWidth="193.0" />
+      <TextField fx:id="ipnAdresse" layoutX="323.0" layoutY="207.0" prefHeight="24.0" prefWidth="193.0" />
+      <TextField fx:id="iptNumero" layoutX="323.0" layoutY="251.0" prefHeight="24.0" prefWidth="193.0" />
+      <Label layoutX="246.0" layoutY="110.0" text="Nom      :" />
+      <Label layoutX="246.0" layoutY="160.0" text="Prenom :" />
+      <Label layoutX="246.0" layoutY="210.0" text="Adresse :" />
+      <Label layoutX="245.0" layoutY="254.0" text="Numero :" />
+      <Button fx:id="btnValider" layoutX="312.0" layoutY="302.0" mnemonicParsing="false" onAction="#onValider" prefHeight="24.0" prefWidth="136.0" text="Valider" />
+   </children>
+</AnchorPane>
